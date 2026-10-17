@@ -1,156 +1,122 @@
 # Hi, I'm Benyamin Haghighy 👋
 
-### Junior Backend Developer | Node.js
+### Backend Developer | Node.js · JavaScript · REST APIs
 
-I'm a Computer Engineering student focused on backend development with **Node.js, JavaScript, and TypeScript**.
+I'm a Backend Developer focused on building APIs and backend applications with Node.js and JavaScript.
 
-I enjoy building backend systems, RESTful APIs, authentication systems, database-driven applications, and working with real-world backend architectures.
+I enjoy working on backend architecture, authentication and authorization, database design, and application logic. I care about writing maintainable code and building practical solutions to real-world problems.
 
-Recently, I've also been exploring **RAG, embeddings, vector search, WebSocket, real-time Speech-to-Text, Text-to-Speech, and voice assistant systems**.
+My projects range from multi-vendor e-commerce APIs to AI-powered applications involving retrieval-augmented generation (RAG), semantic search, and real-time voice interactions. I enjoy exploring how backend systems, databases, external services, and AI technologies can work together to solve practical problems.
 
----
-
-## 🚀 About Me
-
-* 🎓 Computer Engineering student at Islamic Azad University, Mashhad
-* 💻 Focused on Backend Development with Node.js
-* 🔧 Interested in building clean and maintainable backend systems
-* 🗄️ Working with MySQL, Sequelize, Redis, and relational database design
-* 🔐 Interested in authentication, authorization, validation, and backend security
-* 🤖 Exploring RAG, embeddings, vector search, and LLM-based applications
-* 🎙️ Building real-time voice applications with WebSocket and speech technologies
-* 🌱 Currently looking for a **Junior Backend Developer** opportunity
+My focus is on solving backend problems through practical engineering, making thoughtful technical decisions, and building reliable applications with clear architecture and maintainable code.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
+**Languages & Backend Development**
+JavaScript  · Node.js · Express.js · Fastify · REST APIs
 
-`Node.js` `JavaScript` `TypeScript` `Express.js` `Fastify`
+**Databases & Caching**
+MongoDB · Mongoose · MySQL · SQL · Sequelize · Redis
 
-`REST API` `CRUD` `Middleware` `Async/Await` `Promises`
+**Authentication & Session Management**
+Passport.js · Passport Strategies · JWT · Google OAuth 2.0 · OTP Authentication · Session-Based Authentication · Cookie-Based Authentication · express-session · Redis Session Store · Access Control
 
-`WebSocket` `Event-driven Programming`
+**Real-Time Communication**
+WebSockets · Real-Time Data Streaming · Event-Driven Communication
 
-### Database
+**AI & Semantic Search**
+Retrieval-Augmented Generation (RAG) · Embeddings · Semantic Search · Cosine Similarity · LLM Integration · OpenRouter API
 
-`MySQL` `SQL` `Sequelize` `MongoDB` `Mongoose` `Redis`
+**Voice & Telephony Systems**
+Speech-to-Text (STT) · Text-to-Speech (TTS) · Asterisk · FFmpeg · Audio Processing
 
-`Migration` `Transactions` `Connection Pooling` `Indexing`
+**API Development & Tooling**
+Swagger / OpenAPI · Yup · Multer · Winston
 
-### Authentication & Security
-
-`JWT` `Access/Refresh Tokens` `Session` `Passport`
-
-`bcrypt` `OAuth` `Role-Based Authorization`
-
-`Validation` `CORS` `Rate Limiting` `HttpOnly Cookies`
-
-### AI & RAG
-
-`RAG` `Embeddings` `Vector Search` `Cosine Similarity`
-
-`Knowledge Base` `Similarity Threshold`
-
-`LLM Integration` `OpenRouter`
-
-### Voice & Real-time
-
-`WebSocket` `Speech-to-Text` `Text-to-Speech`
-
-`Real-time Audio Streaming` `Turn Detection`
-
-`Silence Detection` `Transcript Scoring`
+**Server-Side Rendering & Web Fundamentals**
+EJS · Pug · HTML · CSS · Vanilla JavaScript
 
 ---
 
-## 📌 Featured Projects
+## 🚀 Featured Projects
 
-### 🏥 Clinic Chatbot
+### 1. Aria Shop API
 
-A Persian AI chatbot for answering clinic-related questions using a document-based knowledge base.
+A multi-vendor e-commerce REST API built with Node.js, Express.js, and MongoDB.
 
-**Built with:**
+- Product, seller, and inventory management
+- Shopping cart and order workflows
+- OTP authentication and JWT-based access control
+- Online payment integration with Zarinpal
+- Product comments, replies, and personal notes
+- API documentation with Swagger / OpenAPI
 
-`Node.js` `Express.js` `MySQL` `Sequelize` `Redis` `RAG` `OpenRouter`
+**Technologies:** Node.js · Express.js · MongoDB · Mongoose · Redis · Passport.js · JWT · Yup · Swagger
 
-**Highlights:**
+[View Repository →](https://github.com/benyamin-haghighy/aria-shop-api)
 
-* Retrieval-Augmented Generation (RAG)
-* Embeddings and vector search
-* Cosine similarity with similarity threshold
-* Context-aware follow-up questions
-* OTP authentication with Redis
-* JWT Access/Refresh Tokens
-* Conversation and message history
-* RESTful API architecture
-* Persian RTL interface
+### 2. Clinic Chatbot
 
-🔗 **[View Repository](https://github.com/benyamin-haghighy/clinic-chatbot)**
+A Persian-language clinic chatbot that uses RAG to answer questions based on clinic documentation.
+
+- Document embeddings and semantic similarity search
+- Context-aware follow-up questions
+- Responses grounded in retrieved clinic information
+- OTP-based authentication and Redis integration
+- Persistent conversations and message history
+
+**Technologies:** Node.js · Express.js · MySQL · Sequelize · Redis · RAG · Embeddings · OpenRouter
+
+[View Repository →](https://github.com/benyamin-haghighy/clinic-chatbot)
+
+### 3. ClinicSpeak
+
+A real-time Persian voice assistant that connects speech recognition, AI-generated responses, and speech synthesis.
+
+- Browser microphone streaming over WebSockets
+- Real-time Speech-to-Text integration
+- RAG-based information retrieval
+- Conversation context and speech turn detection
+- Persian Text-to-Speech responses
+
+**Technologies:** Node.js · Express.js · WebSockets · MySQL · Sequelize · OpenRouter · iotype · FreeTTS
+
+[View Repository →](https://github.com/benyamin-haghighy/ClinicSpeak)
+
+### 4. Clinic Phone
+
+A phone-based Persian voice assistant that connects telephony, speech processing, and clinic knowledge retrieval.
+
+- Asterisk telephony integration
+- Real-time audio streaming over WebSockets
+- Audio format conversion using FFmpeg
+- RAG-based responses using clinic documentation
+- Speech-to-Text and Text-to-Speech integration
+- Persistent conversation history
+
+**Technologies:** Node.js · Asterisk · WebSockets · FFmpeg · MySQL · Sequelize · RAG
+
+[View Repository →](https://github.com/benyamin-haghighy/clinic-phone)
 
 ---
 
-### 🎙️ ClinicSpeak
+## 🎯 Current Focus
 
-A real-time Persian voice assistant for clinics.
-
-The project connects speech recognition, RAG, LLM processing, and text-to-speech into a single backend pipeline.
-
-**Speech → STT → RAG → LLM → TTS**
-
-**Built with:**
-
-`Node.js` `Express.js` `WebSocket` `MySQL` `Sequelize`
-
-`RAG` `OpenRouter` `Iotype` `FreeTTS`
-
-**Highlights:**
-
-* Real-time WebSocket communication
-* Microphone audio streaming
-* Real-time Speech-to-Text
-* Turn detection using silence and transcript scoring
-* RAG-based information retrieval
-* Context-aware conversations
-* Fallback when relevant information is unavailable
-* Persian Text-to-Speech
-* Session, conversation, and message management
-
-🔗 **[View Repository](https://github.com/benyamin-haghighy/ClinicSpeak)**
-
----
-
-## 📚 What I'm Currently Learning
-
-I'm continuously improving my backend development skills by building projects and experimenting with real-world problems.
-
-Currently focusing on:
-
-* Backend architecture and clean code
-* Advanced Node.js concepts
-* Database design and optimization
-* Authentication and security
-* Real-time communication
-* RAG and AI-powered backend systems
-* Voice and conversational applications
+- Improving backend architecture and API design
+- Deepening my understanding of database performance and caching
+- Building secure and maintainable Node.js applications
+- Improving testing, reliability, and code quality
+- Exploring AI-powered backend and real-time applications
 
 ---
 
 ## 📫 Contact
 
-**Email:** [bngh2003@gmail.com](mailto:bngh2003@gmail.com)
-
-**GitHub:** https://github.com/benyamin-haghighy
-
-**Location:** Mashhad, Iran
+- **Email:** [bngh2003@gmail.com](mailto\:bngh2003@gmail.com)
+- **GitHub:** [@benyamin-haghighy](https://github.com/benyamin-haghighy)
 
 ---
 
-### 💡 A little about my approach
-
-I prefer learning by building.
-
-Most of the technologies listed on my profile come from actually implementing them in projects, solving problems, and understanding how the pieces work together.
-
-**Backend Development • Node.js • AI • Real-time Systems**
+*Learning through building, solving problems, and continuously improving.*
