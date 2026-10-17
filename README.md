@@ -114,7 +114,7 @@ A phone-based Persian voice assistant that connects telephony, speech processing
 
 ## 📫 Contact
 
-- **Email:** [bngh2003@gmail.com](mailto\:bngh2003@gmail.com)
+- **Email:** [bngh2003@gmail.com](mailto:bngh2003@gmail.com)
 - **GitHub:** [@benyamin-haghighy](https://github.com/benyamin-haghighy)
 
 ---
