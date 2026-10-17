@@ -15,7 +15,7 @@ My focus is on solving backend problems through practical engineering, making th
 ## 🛠️ Tech Stack
 
 **Languages & Backend Development**
-JavaScript  · Node.js · Express.js · Fastify · REST APIs
+JavaScript · Node.js · Express.js · REST APIs
 
 **Databases & Caching**
 MongoDB · Mongoose · MySQL · SQL · Sequelize · Redis
